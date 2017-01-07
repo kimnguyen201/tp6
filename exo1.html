@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>my site</title>
+    <link rel='stylesheet' type='text/css' href='style1.css'>
+    <script language='javascript'>
+      function clique() {
+        var mondiv=document.getElementById("hinhvuong");
+        var couleur=prompt('Couleur choisi');
+            mondiv.style.backgroundColor=couleur; 
+      }
+    </script>
+	</head>
+<body>
+  <header>
+<h2 class="titre">Cliquez dans la zone pour changer la couleur</h2>
+    <div id="hinhvuong" onclick=clique();>
+    </div>
+  </header>
+  </body>
+</html>
